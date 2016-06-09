@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+	  <title>ACTIVIDAD: HTLM</title>
+  </head>
+
+  <body>
+  <div>
+  <center>
+  	<div style="background:pink">
+  	<h1>INICIO DE SESIÓN</h1>
+  	<form style="width:50%">
+  	<label for="Uname">User Name:</label><input type="text" name="Uname"><br>
+  	<label for="Password">Password:</label><input type="password" name="password"><br>
+  	<button type="submit">Iniciar Sesion</button> <button type="submit">Cancelar</button> 
+  	</form>
+  	</div>
+  </center>
+  </div>
+  </body>
+  
+</html>
