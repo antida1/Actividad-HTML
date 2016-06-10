@@ -1,0 +1,26 @@
+div{
+	margin: 2px;
+	padding: 10px;	
+}
+h1{
+	color:#0000FF;
+	font-size: 50px;
+}
+form{
+	width:50%;
+	align-content: center;
+	color: #00008B;	
+}
+table{
+	border: 1px solid #000000;
+}
+.img-registro{
+	width: 10%;
+	height: 10%;
+	margin-bottom: 28px;
+}
+body{
+	background:skyblue;
+	margin: 2px;
+	padding: 10px;
+}

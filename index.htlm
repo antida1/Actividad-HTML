@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <link rel="stylesheet" href="/home/testuser/Documentos/Actividad-HTML/styles.css">
   <meta charset="UTF-8">
 	  <title>ACTIVIDAD: HTLM</title>
   </head>
@@ -8,12 +9,21 @@
   <body>
   <div>
   <center>
-  	<div style="background:pink">
+  	<div>
   	<h1>INICIO DE SESIÓN</h1>
-  	<img src="Assets/Imagenes/sesiones.png">
-  	<form style="width:50%">
-  	<label for="Uname">User Name:</label><input type="text" name="Uname"><br>
-  	<label for="Password">Password:</label><input type="password" name="password"><br>
+  	<img class="img-inicio" src="Assets/Imagenes/sesiones.png">
+  	<form>
+  	<table>
+  		<tr>
+  			<td><label for="Uname">User Name:</label></td>
+  			<td><input type="text" name="Uname"></td>
+  		</tr>
+  		<tr>
+  			<td><label for="Password">Password:</label></td>
+  			<td><input type="password" name="password"></td>
+  		</tr>
+  	</table>
+  	<br> 	
   	<button type="submit">Iniciar Sesion</button> <button type="submit">Cancelar</button> 
   	</form>
   	<br>
