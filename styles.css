@@ -1,6 +1,6 @@
 h1{
-	color: purple;
-	font-size: 40px;
+	font-size: 36px !important;
+	color: purple !important;
 }
 div{	
 	margin: 2px;
@@ -13,13 +13,24 @@ table{
 	border: 1px solid #000000;
 	align-self: center;
 }
-body{
-	background:pink;
+body.lina{
+	background: #F08080;
 	margin: 10px;
 	padding: 20px;
+	align-content: center;
 }
 .img-inicio{
-	width: 10%;
-	height: 10%;
-	margin-bottom: 35px;
+	display: block;
+    height: auto;
+    margin: 0 auto 10px;
+    width: 40%;
+}
+
+#contenedorMio{
+	width: 30%;
+	margin: auto;
+	position: static;
+}
+.buttons{
+	margin-top: 30px;
 }

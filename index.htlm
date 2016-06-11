@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link rel="stylesheet" href="/home/testuser/Documentos/Actividad-HTML/styles.css">
+  <link rel="stylesheet" href="/home/testuser/Documentos/Actividad-HTML/styles.css">  
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <meta charset="UTF-8">
 	  <title>ACTIVIDAD: HTLM</title>
   </head>
 
-  <body>
-  <div>
-  <center>
-  	<div>
-  	<h1>INICIO DE SESIÓN</h1>
-  	<img class="img-inicio" src="Assets/Imagenes/sesiones.png">
-  	<form>
-  	<table>
-  		<tr>
-  			<td><label for="Uname">User Name:</label></td>
-  			<td><input type="text" name="Uname"></td>
-  		</tr>
-  		<tr>
-  			<td><label for="Password">Password:</label></td>
-  			<td><input type="password" name="password"></td>
-  		</tr>
-  	</table>
-  	<br> 	
-  	<button type="submit">Iniciar Sesion</button> <button type="submit">Cancelar</button> 
-  	</form>
-  	<br>
-  	<a href=/home/testuser/Documentos/Actividad-HTML/Componnents/registro.html>LINK A REGISTRO</a> 
-  	</div>
-  </center>
+  <body class="lina">
+  <div class="container">
+  	<div id="contenedorMio">
+	   	<h1>INICIO DE SESIÓN</h1>
+	  	<img class="img-inicio" src="Assets/Imagenes/sesiones.png">
+	  	<div class="login-form">
+		  	<form role="form">  	
+			  	<div class="form-group">
+				  	<table class="table-responsive">
+				  		<tr>
+				  			<td><label for="Uname">User Name:</label></td>
+				  			<td><input type="text" name="Uname"></td>
+				  		</tr>
+				  		<tr>
+				  			<td><label for="Password">Password:</label></td>
+				  			<td><input type="password" name="password"></td>
+				  		</tr>				  		
+				  		<tr>
+				  			<div class="buttons">
+					  			<td><button class="btn btn-primary" type="submit">Iniciar Sesion</button></td>
+					  			<td><button class="btn btn-default"  type="submit">Cancelar</button></td>
+					  		</div>
+				  		</tr>
+				  	</table>
+				 </div>	  		
+		  	</form>
+	  	<br />
+	  	<a href=/home/testuser/Documentos/Actividad-HTML/Componnents/registro.html>LINK A REGISTRO</a> 
+	  </div>
   </div>
   </body>
 
